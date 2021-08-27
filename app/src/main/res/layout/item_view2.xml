@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:id="@+id/ivMaster"
+            android:layout_width="205dp"
+            android:layout_height="205dp"
+            />
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_toEndOf="@id/ivMaster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginHorizontal="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Saurabh sharma"/>
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_below="@id/tvHeader"
+            android:layout_toEndOf="@id/ivMaster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Saurabh sharma"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".More">
+
+
+
+        <TextView
+            android:id="@+id/tvFavorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MY Favourites"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/faq"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="10dp"
+            android:padding="9dp"/>
+
+        <TextView
+            android:id="@+id/tvDownloads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Downloads"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/download"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="10dp"
+            android:padding="9dp"/>
+        <TextView
+            android:id="@+id/tvGift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gift ThinkRight.me"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/gift"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="10dp"
+            android:padding="9dp"/>
+
+        <TextView
+            android:id="@+id/tvInviteFriends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invite Friends"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/invite"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="10dp"
+            android:padding="9dp"/>
+        <TextView
+            android:id="@+id/tvSubscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subscription"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/subscription"
+            android:layout_marginLeft="10dp"
+            android:drawablePadding="15dp"
+            android:padding="9dp"/>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:background="#D3D3D3"/>
+
+
+    <TextView
+        android:id="@+id/tvReminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reminders"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/gift"
+        android:layout_marginLeft="10dp"
+        android:drawablePadding="15dp"
+        android:padding="9dp"/>
+
+    <TextView
+        android:id="@+id/tvMypofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/gift"
+        android:drawablePadding="15dp"
+        android:layout_marginLeft="10dp"
+        android:padding="9dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#D3D3D3"/>
+
+    <TextView
+        android:id="@+id/tvFAQs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAQs"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/faq"
+        android:drawablePadding="15dp"
+        android:padding="9dp"/>
+
+    <TextView
+        android:id="@+id/tvRateUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate us"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/rateus"
+        android:drawablePadding="15dp"
+        android:layout_marginLeft="10dp"
+        android:padding="9dp"/>
+
+    <TextView
+        android:id="@+id/tvContactUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/contactus"
+        android:drawablePadding="15dp"
+        android:layout_marginLeft="10dp"
+        android:padding="9dp"/>
+
+    <TextView
+        android:id="@+id/tvPrivactPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/privacy"
+        android:layout_marginLeft="10dp"
+        android:drawablePadding="15dp"
+        android:padding="9dp"/>
+    <TextView
+        android:id="@+id/tvTermsOfService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms of Service"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/termsofservice"
+        android:drawablePadding="15dp"
+        android:layout_marginLeft="10dp"
+        android:padding="9dp"/>
+
+    <TextView
+        android:id="@+id/tvSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign out"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/signout"
+        android:drawablePadding="15dp"
+        android:layout_marginLeft="10dp"
+        android:padding="9dp"/>
+
+
+
+
+
+
+</LinearLayout>

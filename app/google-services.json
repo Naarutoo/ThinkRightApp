@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "453761585258",
+    "project_id": "thinkright-188bd",
+    "storage_bucket": "thinkright-188bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453761585258:android:f5591e8001165fc53cfa13",
+        "android_client_info": {
+          "package_name": "com.example.thinkright"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453761585258-kedbvh2lsuqmb6bd5u9jmaurlkls31v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_rXszS-Mjneu3jQW5zVkWJM4YM2VZAlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453761585258-kedbvh2lsuqmb6bd5u9jmaurlkls31v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
